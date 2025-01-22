@@ -5,16 +5,66 @@ body {
 
 header, footer {
     text-align: center;
-    width: 400px;
+    width: 300px;
     margin: 30px auto 0px auto;
 }
 
 main {
-    width: 400px;
+    width: 300px;
     margin: 30px auto 0px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 18px;
 }
 
 img {
     width: 150px;
     height: 150px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    width: 236px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background-color: #fd0c49;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 100%;
+}
+
+select {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+/*IDs*/
+
+#nicknamerd {
+    float: left;
+    width: 20px;
+    background-color: #ced4da;
+    border: 1px solid #ced4da;
+    border-radius: 5px 0px 0px 5px;
 }
