@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <!--HEADER-->
+    <header>
+        <img src="./img/Logo.png" alt="Logo del juego">
+    </header>
+    <!--CONTENIDO DEL FORMULARIO-->
+    <main>
+        <form action="" method="post">
+            <div class="inputForm">
+                <label for="input">Introduce tu nickname: </label>
+                <input type="text" name="nickname" id="nickname" required>
+            </div>
+            <div class="inputForm">
+                <label for="input">Introduce tu contraseña: </label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="inputForm">
+                <label for="input">Tamaño del juego</label>
+                <select name="tamaño" id="tamaño">
+                    <option>--Escoja una opción--</option>
+                    <option value="1">4x4</option>
+                    <option value="2">5x5</option>
+                    <option value="3">6x6</option>
+                    <option value="4">7x7</option>
+                    <option value="5">8x8</option>
+                </select>
+            </div>
+            <div class="inputForm">
+                <input type="submit" value="JUGAR">
+            </div>
+        </form>
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <p>Proyecto 1 de HTML, CSS y JS</p>
+    </footer>
 </body>
 </html>
