@@ -42,6 +42,11 @@ input {
     font-size: 18px;
 }
 
+input[type="email"] {
+    width: 277px;
+    border-radius: 5px;
+}
+
 input[type="submit"] {
     background-color: #fd0c49;
     color: white;
@@ -61,7 +66,7 @@ select {
 
 /*IDs*/
 
-#nicknamerd {
+#nicknamero {
     float: left;
     width: 20px;
     background-color: #ced4da;
